@@ -1,0 +1,85 @@
+@font-face{
+	src:ulr(../fonts/Ubuntu-Bold.ttf);
+	font-family:Ubuntu-Bold.ttf;
+}
+@font-face{
+	src:url(../fonts/Ubuntu-Regular.ttf);
+	font-family:Ubuntu-Regular.ttf;
+}
+/*n css beg*/
+body{
+	margin:0;
+	font-family:"palyfair display", serif;
+	font-size: 16px;
+	font-weight:400;
+	color:#626262;
+}
+.width100{
+	width:100%;
+}
+/*n css end*/
+/*Header beggins*/
+header{
+	padding:50px 0;
+}
+.layout{
+	overflow:hidden;
+	margin:0 auto;
+	width:90%;
+.logo{
+	float:left;
+	width:10%;
+}
+.menu{
+	margin-top:5px;
+	float:right;
+	width:70%;
+}
+.menu ul{
+	margin:0;
+	float:right;
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	margin:0 40px;
+	display:inline-block;
+	color:#626262;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-bottom:1px solid transparent;
+	transition:linear .33s;
+}
+
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*Header ends*/
+/*article beggins*/
+.article{
+	padding: 100px 0;
+	margin: 0;
+}
+.container-2{
+	margin: 0 auto;
+	width: 80%;
+}
+.a-content{}
+.lite{}
+.title{}
+.text{}
+/*article ends*/
+/*feature beggins*/
+.feature{
+	padding: 100px 0;
+}
+.c_2{
+	margin: 0 auto;
+	width: 80%;
+}
+/*feture ends*/
